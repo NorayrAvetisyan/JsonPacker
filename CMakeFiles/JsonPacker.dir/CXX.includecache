@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/u/norayr/JsonPacker_cmake/tlv/tlv.h
+string
+-
+
+/u/norayr/JsonPacker_cmake/tlv/tlv_box.cpp
+string.h
+-
+Winsock2.h
+-
+arpa/inet.h
+-
+tlv.h
+/u/norayr/JsonPacker_cmake/tlv/tlv.h
+tlv_box.h
+/u/norayr/JsonPacker_cmake/tlv/tlv_box.h
+
+/u/norayr/JsonPacker_cmake/tlv/tlv_box.h
+map
+-
+vector
+-
+string
+-
+

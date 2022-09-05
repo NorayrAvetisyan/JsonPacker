@@ -1,0 +1,255 @@
+The system is: Linux - 3.10.0-1160.31.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/u/norayr/JsonPacker_cmake/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/gmake "cmTryCompileExec1735875635/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec1735875635.dir/build.make CMakeFiles/cmTryCompileExec1735875635.dir/build
+gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1735875635.dir/testCCompiler.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec1735875635.dir/testCCompiler.c.o   -c /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1735875635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1735875635.dir/link.txt --verbose=1
+/usr/local/bin/cc       CMakeFiles/cmTryCompileExec1735875635.dir/testCCompiler.c.o  -o cmTryCompileExec1735875635 -rdynamic 
+gmake[1]: Leaving directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/gmake "cmTryCompileExec1028023422/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec1028023422.dir/build.make CMakeFiles/cmTryCompileExec1028023422.dir/build
+gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1028023422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1028023422.dir/link.txt --verbose=1
+/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1028023422 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../../src/gcc-4.5.2/configure -prefix=/depot/gcc-4.5.2 --enable-bootstrap --enable-threads=posix --disable-checking --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-languages=c,c++,fortran --disable-libgcj --with-cpu=generic --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.5.2 (GCC) 
+COMPILER_PATH=/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/
+LIBRARY_PATH=/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1028023422' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1028023422 /lib/../lib64/crt1.o /lib/../lib64/crti.o /depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtbegin.o -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2 -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../.. CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/bin/gmake "cmTryCompileExec1028023422/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec1028023422.dir/build.make CMakeFiles/cmTryCompileExec1028023422.dir/build]
+  ignore line: [gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1028023422]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1028023422.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1028023422 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../../src/gcc-4.5.2/configure -prefix=/depot/gcc-4.5.2 --enable-bootstrap --enable-threads=posix --disable-checking --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-languages=c,c++,fortran --disable-libgcj --with-cpu=generic --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.5.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1028023422' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1028023422 /lib/../lib64/crt1.o /lib/../lib64/crti.o /depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtbegin.o -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2 -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../.. CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtend.o /lib/../lib64/crtn.o]
+    arg [/depotbld/RHEL6.0/gcc-4.5.2/bin/../libexec/gcc/x86_64-redhat-linux/4.5.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1028023422] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtbegin.o] ==> ignore
+    arg [-L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2] ==> dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2]
+    arg [-L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc] ==> dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc]
+    arg [-L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64] ==> dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../..] ==> dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec1028023422.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2] ==> [/depotbld/RHEL6.0/gcc-4.5.2/lib/gcc/x86_64-redhat-linux/4.5.2]
+  collapse library dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc] ==> [/depotbld/RHEL6.0/gcc-4.5.2/lib/gcc]
+  collapse library dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../../../lib64] ==> [/depotbld/RHEL6.0/gcc-4.5.2/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/depotbld/RHEL6.0/gcc-4.5.2/bin/../lib/gcc/x86_64-redhat-linux/4.5.2/../../..] ==> [/depotbld/RHEL6.0/gcc-4.5.2/lib]
+  implicit libs: [c]
+  implicit dirs: [/depotbld/RHEL6.0/gcc-4.5.2/lib/gcc/x86_64-redhat-linux/4.5.2;/depotbld/RHEL6.0/gcc-4.5.2/lib/gcc;/depotbld/RHEL6.0/gcc-4.5.2/lib64;/lib64;/usr/lib64;/depotbld/RHEL6.0/gcc-4.5.2/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /depot/qsc/QSCS/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/u/norayr/JsonPacker_cmake/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/gmake "cmTryCompileExec4137753727/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec4137753727.dir/build.make CMakeFiles/cmTryCompileExec4137753727.dir/build
+gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4137753727.dir/testCXXCompiler.cxx.o
+/depot/qsc/QSCS/bin/g++     -o CMakeFiles/cmTryCompileExec4137753727.dir/testCXXCompiler.cxx.o -c /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4137753727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4137753727.dir/link.txt --verbose=1
+/depot/qsc/QSCS/bin/g++        CMakeFiles/cmTryCompileExec4137753727.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4137753727 -rdynamic 
+gmake[1]: Leaving directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/gmake "cmTryCompileExec2452252178/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec2452252178.dir/build.make CMakeFiles/cmTryCompileExec2452252178.dir/build
+gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o
+/depot/qsc/QSCS/bin/g++     -o CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2452252178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2452252178.dir/link.txt --verbose=1
+/depot/qsc/QSCS/bin/g++      -v CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2452252178 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/depot/qsc/QSCS/bin/g++
+COLLECT_LTO_WRAPPER=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/lto-wrapper
+Target: x86_64-centos-linux
+Configured with: ../src/gcc-9.2.0/configure --prefix=/depot/gcc-9.2.0 --enable-bootstrap --enable-threads=posix --disable-checking --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-languages=c,c++,fortran --disable-libgcj --with-cpu=generic --build=x86_64-centos-linux
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2452252178' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/collect2 -plugin /depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/liblto_plugin.so -plugin-opt=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpf2iiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2452252178 /lib/../lib64/crt1.o /lib/../lib64/crti.o /depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtbegin.o -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0 -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../.. CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2452252178' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/bin/gmake "cmTryCompileExec2452252178/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTryCompileExec2452252178.dir/build.make CMakeFiles/cmTryCompileExec2452252178.dir/build]
+  ignore line: [gmake[1]: Entering directory `/remote/am04home1/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /u/norayr/JsonPacker_cmake/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/depot/qsc/QSCS/bin/g++     -o CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2452252178]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2452252178.dir/link.txt --verbose=1]
+  ignore line: [/depot/qsc/QSCS/bin/g++      -v CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2452252178 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/depot/qsc/QSCS/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-centos-linux]
+  ignore line: [Configured with: ../src/gcc-9.2.0/configure --prefix=/depot/gcc-9.2.0 --enable-bootstrap --enable-threads=posix --disable-checking --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-languages=c,c++,fortran --disable-libgcj --with-cpu=generic --build=x86_64-centos-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2452252178' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/collect2 -plugin /depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/liblto_plugin.so -plugin-opt=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpf2iiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2452252178 /lib/../lib64/crt1.o /lib/../lib64/crti.o /depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtbegin.o -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0 -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../.. CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/depotbld/RHEL7.0/gcc-9.2.0/bin/../libexec/gcc/x86_64-centos-linux/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpf2iiK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2452252178] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtbegin.o] ==> ignore
+    arg [-L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0] ==> dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0]
+    arg [-L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc] ==> dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc]
+    arg [-L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64] ==> dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../..] ==> dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec2452252178.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0] ==> [/depotbld/RHEL7.0/gcc-9.2.0/lib/gcc/x86_64-centos-linux/9.2.0]
+  collapse library dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc] ==> [/depotbld/RHEL7.0/gcc-9.2.0/lib/gcc]
+  collapse library dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../../../lib64] ==> [/depotbld/RHEL7.0/gcc-9.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/depotbld/RHEL7.0/gcc-9.2.0/bin/../lib/gcc/x86_64-centos-linux/9.2.0/../../..] ==> [/depotbld/RHEL7.0/gcc-9.2.0/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/depotbld/RHEL7.0/gcc-9.2.0/lib/gcc/x86_64-centos-linux/9.2.0;/depotbld/RHEL7.0/gcc-9.2.0/lib/gcc;/depotbld/RHEL7.0/gcc-9.2.0/lib64;/lib64;/usr/lib64;/depotbld/RHEL7.0/gcc-9.2.0/lib]
+  implicit fwks: []
+
+

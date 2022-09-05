@@ -1,0 +1,1 @@
+/depot/qsc/QSCS/bin/g++   -std=c++17    CMakeFiles/JsonPacker.dir/JsonPacker.cpp.o CMakeFiles/JsonPacker.dir/tlv/tlv.cpp.o CMakeFiles/JsonPacker.dir/tlv/tlv_box.cpp.o  -o JsonPacker  -L/u/norayr/JsonPacker_cmake/./boost -rdynamic 
